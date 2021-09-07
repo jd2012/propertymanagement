@@ -22,11 +22,14 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity=".5"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview4" /><g
+     id="namedview4" /><rect 
+     x="10" y="10" width="380" height="380"
+     style="fill:#ffffff;fill-opacity:0.75;fill-rule:nonzero;stroke:none"
+     id="rect01" /><g
      id="g10"
      inkscape:groupmode="layer"
      inkscape:label="ink_ext_XXXXXX"
