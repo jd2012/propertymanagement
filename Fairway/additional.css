@@ -5,6 +5,7 @@ img.qrcode {
   height: auto;
 }
 div.qrcode {
+  width: 100%;
   text-align: center;
   justify-content: center;
 }
