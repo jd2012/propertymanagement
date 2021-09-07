@@ -1,18 +1,15 @@
+/* Additional CSS v7.3 */
 img.qrcode {
   display: block;
   max-width: 650px;
-  min-width: 300px;
   height: auto;
 }
 div.qrcode {
-  max-width: 650px;
-  width: 50%;
-  min-width: 300px;
+  width: 60%;
   text-align: center;
   justify-content: center;
 }
-a.qrcode{
-  margin:auto;
+
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 3vw */
@@ -26,5 +23,8 @@ a.qrcode{
 @media screen and (max-width: 600px) {
   .tagline {
     font-size: 30px;
+  }
+  .qrcode {
+    min-width: 300px;
   }
 }
