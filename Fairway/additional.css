@@ -1,4 +1,5 @@
 #qrcode {
-  max-width: 350em;
+  display: block;
+  max-width: 350px;
   height: auto;
 }
