@@ -1,0 +1,35 @@
+/* Main CSS v9.0 */
+img.qrcode {
+  display: block;
+  max-width: 900px;
+  height: auto;
+  margins: 0;
+}
+div.qrcode {
+  text-align: center;
+  justify-content: center;
+}
+#qrcode {
+  margins: auto;
+  text-align: center;
+}
+#logo {
+  text-decoration: none;
+}
+
+/* If the screen size is 601px wide or more: */
+@media screen and (min-width: 601px) {
+  .tagline {
+    font-size: 5vw;
+  }
+}
+
+/* If the screen size is 600px wide or less: */
+@media screen and (max-width: 600px) {
+  .tagline {
+    font-size: 30px;
+  }
+  .qrcode {
+    min-width: 300px;
+  }
+}
