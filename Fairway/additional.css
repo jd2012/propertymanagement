@@ -1,11 +1,10 @@
-/* Additional CSS v7.8 */
+/* Additional CSS v7.11 */
 img.qrcode {
   display: block;
   max-width: 650px;
   height: auto;
 }
 div.qrcode {
-  width: 90%;
   text-align: center;
   justify-content: center;
 }
