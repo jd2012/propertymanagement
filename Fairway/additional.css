@@ -1,4 +1,4 @@
-/* Additional CSS v7.11 */
+/* Additional CSS v7.13 */
 img.qrcode {
   display: block;
   max-width: 650px;
@@ -8,8 +8,6 @@ div.qrcode {
   width: 100%;
   text-align: center;
   justify-content: center;
-}
-
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 3vw */
