@@ -1,4 +1,4 @@
-/* Additional CSS v1 */
+/* Additional CSS v1.1 */
 img.qrcode {
   display: block;
   max-width: 900px;
@@ -12,6 +12,9 @@ div.qrcode {
 #qrcode {
   margins: auto;
   text-align: center;
+}
+#logo {
+  text-decoration: none;
 }
 
 /* If the screen size is 601px wide or more: */
