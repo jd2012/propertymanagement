@@ -1,13 +1,13 @@
 img.qrcode {
   display: block;
   max-width: 650px;
-  min-width: 200px;
+  min-width: 300px;
   height: auto;
 }
 div.qrcode {
   max-width: 650px;
   width: 50%;
-  min-width: 200px;
+  min-width: 300px;
   text-align: center;
   justify-content: center;
 }
