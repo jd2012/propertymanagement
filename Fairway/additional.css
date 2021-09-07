@@ -1,5 +1,16 @@
-#qrcode {
+img.qrcode {
   display: block;
-  max-width: 350px;
+  max-width: 650px;
+  min-width: 200px;
   height: auto;
+}
+div.qrcode {
+  max-width: 650px;
+  width: 50%;
+  min-width: 200px;
+  text-align: center;
+  justify-content: center;
+}
+a.qrcode{
+  margin:auto;
 }
