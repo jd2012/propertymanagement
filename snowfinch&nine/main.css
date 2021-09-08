@@ -22,8 +22,8 @@ div.qrcode {
   justify-content: center;
 }
 .cardbtn {
-  background-color: #BFFFFFFF;
-  height: 20%;
+  background-color: rgb(255, 255, 255);
+  height: 30%;
   min-height: 150px;
 }
 
