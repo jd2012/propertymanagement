@@ -1,4 +1,4 @@
-/* Main CSS v9.0 */
+/* Main CSS v9.1 */
 img.qrcode {
   display: block;
   max-width: 900px;
@@ -16,20 +16,33 @@ div.qrcode {
 #logo {
   text-decoration: none;
 }
+#cardbtn {
+  width: 75%;
+  max-width: 900px;
+  justify-content: center;
+}
+.cardbtn {
+  background-color: #BFFFFFFF;
+  height: 20%;
+  min-height: 150px;
+}
 
 /* If the screen size is 601px wide or more: */
 @media screen and (min-width: 601px) {
   .tagline {
     font-size: 5vw;
   }
+  .cardbtn {
+    font-size: 6vw;
+  }
 }
 
 /* If the screen size is 600px wide or less: */
 @media screen and (max-width: 600px) {
-  .tagline {
-    font-size: 30px;
+  .tagline, .cardbtn {
+    font-size: 35px;
   }
-  .qrcode {
+  .qrcode, #cardbtn, .cardbtn {
     min-width: 300px;
   }
 }
