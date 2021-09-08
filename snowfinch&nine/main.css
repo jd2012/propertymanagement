@@ -23,8 +23,10 @@ div.qrcode {
 }
 .cardbtn {
   background-color: rgb(255, 255, 255);
-  height: 30%;
+  height: 40%;
   min-height: 150px;
+  text-decoration: none;
+
 }
 
 /* If the screen size is 601px wide or more: */
