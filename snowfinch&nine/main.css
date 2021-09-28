@@ -1,4 +1,4 @@
-/* Main CSS v10.0 */
+/* Main CSS v10.1 */
 img.qrcode {
   display: block;
   max-width: 900px;
@@ -27,6 +27,7 @@ div.qrcode {
   min-height: 150px;
   text-decoration: none;
   text-align: middle;
+  line-height: 40%;
 }
 .nounderline {
     text-decoration: none;
