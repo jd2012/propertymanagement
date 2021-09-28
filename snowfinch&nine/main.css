@@ -1,4 +1,4 @@
-/* Main CSS v9.8 */
+/* Main CSS v9.9 */
 img.qrcode {
   display: block;
   max-width: 900px;
@@ -45,7 +45,7 @@ div.qrcode {
 /* If the screen size is 600px wide or less: */
 @media screen and (max-width: 600px) {
   .tagline, .cardbtn {
-    font-size: 35px;
+    font-size: 350px;
   }
   .qrcode, #cardbtn, .cardbtn {
     min-width: 300px;
