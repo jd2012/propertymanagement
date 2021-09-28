@@ -1,4 +1,4 @@
-/* Main CSS v9.9 */
+/* Main CSS v10.0 */
 img.qrcode {
   display: block;
   max-width: 900px;
@@ -32,18 +32,9 @@ div.qrcode {
     text-decoration: none;
 }
 
-/* If the screen size is 601px wide or more: */
-@media screen and (min-width: 601px) {
-  .tagline {
-    font-size: 5vw;
-  }
-  .cardbtn {
-    font-size: 6vw;
-  }
-}
 
-/* If the screen size is 600px wide or less: */
-@media screen and (max-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
   .tagline, .cardbtn {
     font-size: 350px;
   }
@@ -51,3 +42,29 @@ div.qrcode {
     min-width: 300px;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .tagline {
+    font-size: 5vw;
+  }
+  .cardbtn {
+    font-size: 8vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
